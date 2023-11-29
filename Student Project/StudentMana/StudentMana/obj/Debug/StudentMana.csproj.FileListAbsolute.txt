@@ -1,0 +1,13 @@
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.csproj.AssemblyReference.cache
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.Form1.resources
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.Properties.Resources.resources
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.csproj.GenerateResource.cache
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.csproj.CoreCompileInputs.cache
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\bin\Debug\StudentMana.exe.config
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\bin\Debug\StudentMana.exe
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\bin\Debug\StudentMana.pdb
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\bin\Debug\Guna.UI2.dll
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.SignupForm.resources
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.csproj.CopyComplete
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.exe
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.pdb
