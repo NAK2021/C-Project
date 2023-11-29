@@ -1,0 +1,11 @@
+29/11/2023 - Tran Kien Phong
+Overview the log in form
+
+Hidden password
+
+Set border for form
+
+Minimize and close icon for form
+
+Setting Num lock and Cap lock warning
+
