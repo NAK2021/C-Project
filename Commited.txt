@@ -9,3 +9,7 @@ Minimize and close icon for form
 
 Setting Num lock and Cap lock warning
 
+30/11/2023 - Tran Kien Phong
+Create 4 form and faking 4 user for 4 forms
+
+Setting remember me toggle
