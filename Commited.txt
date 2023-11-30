@@ -13,3 +13,16 @@ Setting Num lock and Cap lock warning
 Create 4 form and faking 4 user for 4 forms
 
 Setting remember me toggle
+
+Package install to make QR login 
+Install-Package AForge
+ Install-Package AForge.Video
+Install-Package AForge.Video.DirectShow
+Install-Package ZXing.Net
+
+setting form
+using AForge;
+using AForge.Video;
+using AForge.Video.DirectShow;
+using ZXing;
+using ZXing.QrCode;

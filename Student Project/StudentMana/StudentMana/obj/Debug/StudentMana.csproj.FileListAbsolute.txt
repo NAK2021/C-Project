@@ -11,3 +11,15 @@ D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\Stud
 D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.csproj.CopyComplete
 D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.exe
 D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.pdb
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\bin\Debug\AForge.dll
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\bin\Debug\AForge.Video.DirectShow.dll
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\bin\Debug\AForge.Video.dll
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\bin\Debug\zxing.dll
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\bin\Debug\zxing.presentation.dll
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\bin\Debug\AForge.xml
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\bin\Debug\AForge.Video.xml
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\bin\Debug\AForge.Video.DirectShow.xml
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\bin\Debug\zxing.xml
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\bin\Debug\zxing.presentation.xml
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.QRcodeForm.resources
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.FormQr.resources

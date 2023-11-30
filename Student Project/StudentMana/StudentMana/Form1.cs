@@ -234,6 +234,32 @@ namespace StudentMana
 
         }
 
+        private void QrScannerButton_Click(object sender, EventArgs e)
+        {
+            Form modalBackground = new Form();
+            using (QRcodeForm modal = new QRcodeForm())
+            {
+                modalBackground.StartPosition = FormStartPosition.Manual;
+                modalBackground.FormBorderStyle = FormBorderStyle.None;
+                modalBackground.Opacity = .5d;
+                modalBackground.BackColor = Color.Black;
+                modalBackground.Size = this.Size;
+                modalBackground.Location = this.Location;
+                modalBackground.ShowInTaskbar = false;
+                modalBackground.Show();
+                modal.Owner = modalBackground;
+
+                parentX = this.Location.X;
+                parentY = this.Location.Y;
+
+                QRcodeForm m = new QRcodeForm();
+                m.ShowDialog();
+
+                modalBackground.Dispose();
+
+            }
+        }
+
         /*Form2*/
         private void ForgotpassButton_Click(object sender, EventArgs e)
         {

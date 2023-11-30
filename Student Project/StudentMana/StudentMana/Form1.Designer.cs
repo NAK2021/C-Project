@@ -31,22 +31,23 @@
             this.components = new System.ComponentModel.Container();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.RememberPass = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.RememberToggle = new Guna.UI2.WinForms.Guna2ToggleSwitch();
             this.EyeOpenButton = new Guna.UI2.WinForms.Guna2PictureBox();
             this.ButtonMinimze = new Guna.UI2.WinForms.Guna2PictureBox();
             this.ButtonClosed = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.ForgotpassButton = new Guna.UI2.WinForms.Guna2Button();
             this.LogInbutton = new Guna.UI2.WinForms.Guna2Button();
             this.EyeCloseButton = new Guna.UI2.WinForms.Guna2PictureBox();
             this.UserIDTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.PasswordText = new Guna.UI2.WinForms.Guna2TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.modalsettimer = new System.Windows.Forms.Timer(this.components);
-            this.RememberToggle = new Guna.UI2.WinForms.Guna2ToggleSwitch();
-            this.RememberPass = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.ForgotpassButton = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.QrScannerButton = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -81,6 +82,15 @@
             this.guna2Panel2.TabIndex = 3;
             this.guna2Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel2_Paint);
             // 
+            // guna2Panel3
+            // 
+            this.guna2Panel3.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel3.Name = "guna2Panel3";
+            this.guna2Panel3.Size = new System.Drawing.Size(1138, 45);
+            this.guna2Panel3.TabIndex = 3;
+            this.guna2Panel3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_down);
+            this.guna2Panel3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form_move);
+            // 
             // guna2PictureBox1
             // 
             this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
@@ -109,6 +119,7 @@
             // 
             this.guna2CustomGradientPanel1.BackColor = System.Drawing.SystemColors.MenuText;
             this.guna2CustomGradientPanel1.BorderColor = System.Drawing.Color.White;
+            this.guna2CustomGradientPanel1.Controls.Add(this.QrScannerButton);
             this.guna2CustomGradientPanel1.Controls.Add(this.RememberPass);
             this.guna2CustomGradientPanel1.Controls.Add(this.RememberToggle);
             this.guna2CustomGradientPanel1.Controls.Add(this.EyeOpenButton);
@@ -130,6 +141,34 @@
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(413, 725);
             this.guna2CustomGradientPanel1.TabIndex = 1;
             this.guna2CustomGradientPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2CustomGradientPanel1_Paint);
+            // 
+            // RememberPass
+            // 
+            this.RememberPass.BackColor = System.Drawing.Color.Transparent;
+            this.RememberPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RememberPass.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.RememberPass.Location = new System.Drawing.Point(270, 405);
+            this.RememberPass.Name = "RememberPass";
+            this.RememberPass.Size = new System.Drawing.Size(93, 18);
+            this.RememberPass.TabIndex = 22;
+            this.RememberPass.Tag = "Remember Me";
+            this.RememberPass.Text = "Remember Me";
+            // 
+            // RememberToggle
+            // 
+            this.RememberToggle.Checked = true;
+            this.RememberToggle.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.RememberToggle.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.RememberToggle.CheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.RememberToggle.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.RememberToggle.Location = new System.Drawing.Point(218, 405);
+            this.RememberToggle.Name = "RememberToggle";
+            this.RememberToggle.Size = new System.Drawing.Size(46, 18);
+            this.RememberToggle.TabIndex = 3;
+            this.RememberToggle.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.RememberToggle.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.RememberToggle.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.RememberToggle.UncheckedState.InnerColor = System.Drawing.Color.White;
             // 
             // EyeOpenButton
             // 
@@ -176,18 +215,36 @@
             this.ButtonClosed.UseTransparentBackground = true;
             this.ButtonClosed.Click += new System.EventHandler(this.ButtonClosed_Click);
             // 
+            // ForgotpassButton
+            // 
+            this.ForgotpassButton.Animated = true;
+            this.ForgotpassButton.BorderRadius = 10;
+            this.ForgotpassButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.ForgotpassButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.ForgotpassButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ForgotpassButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.ForgotpassButton.Font = new System.Drawing.Font("Nunito", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForgotpassButton.ForeColor = System.Drawing.Color.White;
+            this.ForgotpassButton.Location = new System.Drawing.Point(218, 444);
+            this.ForgotpassButton.Name = "ForgotpassButton";
+            this.ForgotpassButton.Size = new System.Drawing.Size(156, 33);
+            this.ForgotpassButton.TabIndex = 18;
+            this.ForgotpassButton.Text = "Forgot password?";
+            this.ForgotpassButton.Click += new System.EventHandler(this.ForgotpassButton_Click);
+            // 
             // LogInbutton
             // 
+            this.LogInbutton.Animated = true;
             this.LogInbutton.BorderRadius = 10;
             this.LogInbutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.LogInbutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.LogInbutton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.LogInbutton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.LogInbutton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogInbutton.Font = new System.Drawing.Font("Nunito", 14.25F, System.Drawing.FontStyle.Bold);
             this.LogInbutton.ForeColor = System.Drawing.Color.White;
-            this.LogInbutton.Location = new System.Drawing.Point(80, 450);
+            this.LogInbutton.Location = new System.Drawing.Point(123, 493);
             this.LogInbutton.Name = "LogInbutton";
-            this.LogInbutton.Size = new System.Drawing.Size(261, 38);
+            this.LogInbutton.Size = new System.Drawing.Size(167, 38);
             this.LogInbutton.TabIndex = 17;
             this.LogInbutton.Text = "Log-in!";
             this.LogInbutton.Click += new System.EventHandler(this.LogInbutton_Click);
@@ -266,58 +323,24 @@
             this.label3.TabIndex = 1;
             this.label3.Text = "Welcome back to our group1";
             // 
-            // RememberToggle
+            // QrScannerButton
             // 
-            this.RememberToggle.Checked = true;
-            this.RememberToggle.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.RememberToggle.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.RememberToggle.CheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.RememberToggle.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.RememberToggle.Location = new System.Drawing.Point(218, 405);
-            this.RememberToggle.Name = "RememberToggle";
-            this.RememberToggle.Size = new System.Drawing.Size(46, 18);
-            this.RememberToggle.TabIndex = 3;
-            this.RememberToggle.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.RememberToggle.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.RememberToggle.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.RememberToggle.UncheckedState.InnerColor = System.Drawing.Color.White;
-            // 
-            // RememberPass
-            // 
-            this.RememberPass.BackColor = System.Drawing.Color.Transparent;
-            this.RememberPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RememberPass.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.RememberPass.Location = new System.Drawing.Point(270, 405);
-            this.RememberPass.Name = "RememberPass";
-            this.RememberPass.Size = new System.Drawing.Size(93, 18);
-            this.RememberPass.TabIndex = 22;
-            this.RememberPass.Tag = "Remember Me";
-            this.RememberPass.Text = "Remember Me";
-            // 
-            // ForgotpassButton
-            // 
-            this.ForgotpassButton.BorderRadius = 10;
-            this.ForgotpassButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.ForgotpassButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.ForgotpassButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.ForgotpassButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.ForgotpassButton.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ForgotpassButton.ForeColor = System.Drawing.Color.White;
-            this.ForgotpassButton.Location = new System.Drawing.Point(135, 505);
-            this.ForgotpassButton.Name = "ForgotpassButton";
-            this.ForgotpassButton.Size = new System.Drawing.Size(156, 25);
-            this.ForgotpassButton.TabIndex = 18;
-            this.ForgotpassButton.Text = "Forgot password?";
-            this.ForgotpassButton.Click += new System.EventHandler(this.ForgotpassButton_Click);
-            // 
-            // guna2Panel3
-            // 
-            this.guna2Panel3.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(1138, 45);
-            this.guna2Panel3.TabIndex = 3;
-            this.guna2Panel3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_down);
-            this.guna2Panel3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form_move);
+            this.QrScannerButton.Animated = true;
+            this.QrScannerButton.BackColor = System.Drawing.Color.Transparent;
+            this.QrScannerButton.BorderRadius = 10;
+            this.QrScannerButton.DefaultAutoSize = true;
+            this.QrScannerButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.QrScannerButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.QrScannerButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.QrScannerButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.QrScannerButton.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Bold);
+            this.QrScannerButton.ForeColor = System.Drawing.Color.White;
+            this.QrScannerButton.Location = new System.Drawing.Point(64, 444);
+            this.QrScannerButton.Name = "QrScannerButton";
+            this.QrScannerButton.Size = new System.Drawing.Size(139, 33);
+            this.QrScannerButton.TabIndex = 24;
+            this.QrScannerButton.Text = "Scan QR here!";
+            this.QrScannerButton.Click += new System.EventHandler(this.QrScannerButton_Click);
             // 
             // Form1
             // 
@@ -364,6 +387,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel RememberPass;
         private Guna.UI2.WinForms.Guna2Button ForgotpassButton;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
+        private Guna.UI2.WinForms.Guna2Button QrScannerButton;
     }
 }
 

@@ -41,7 +41,7 @@
             this.Closebutton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.Closebutton.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.Closebutton.ForeColor = System.Drawing.Color.White;
-            this.Closebutton.Location = new System.Drawing.Point(301, 234);
+            this.Closebutton.Location = new System.Drawing.Point(300, 274);
             this.Closebutton.Name = "Closebutton";
             this.Closebutton.Size = new System.Drawing.Size(180, 45);
             this.Closebutton.TabIndex = 1;
