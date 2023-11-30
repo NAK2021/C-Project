@@ -31,15 +31,12 @@
             this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.PicQR = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.PicQR = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.PicQR)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -65,6 +62,16 @@
             this.ComboBox1.Name = "ComboBox1";
             this.ComboBox1.Size = new System.Drawing.Size(292, 36);
             this.ComboBox1.TabIndex = 1;
+            // 
+            // PicQR
+            // 
+            this.PicQR.ImageRotate = 0F;
+            this.PicQR.Location = new System.Drawing.Point(107, 99);
+            this.PicQR.Name = "PicQR";
+            this.PicQR.Size = new System.Drawing.Size(610, 275);
+            this.PicQR.TabIndex = 2;
+            this.PicQR.TabStop = false;
+            this.PicQR.Click += new System.EventHandler(this.guna2PictureBox1_Click);
             // 
             // guna2Button1
             // 
@@ -108,49 +115,18 @@
             this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Location = new System.Drawing.Point(552, 394);
+            this.guna2Button3.Location = new System.Drawing.Point(548, 394);
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.Size = new System.Drawing.Size(180, 45);
             this.guna2Button3.TabIndex = 5;
             this.guna2Button3.Text = "Close";
             this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
-            // PicQR
-            // 
-            this.PicQR.ImageRotate = 0F;
-            this.PicQR.Location = new System.Drawing.Point(40, 87);
-            this.PicQR.Name = "PicQR";
-            this.PicQR.Size = new System.Drawing.Size(369, 278);
-            this.PicQR.TabIndex = 2;
-            this.PicQR.TabStop = false;
-            this.PicQR.Click += new System.EventHandler(this.guna2PictureBox1_Click);
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(510, 87);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(294, 278);
-            this.guna2PictureBox1.TabIndex = 6;
-            this.guna2PictureBox1.TabStop = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(646, 184);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "label2";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
             // QRcodeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(849, 490);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.guna2Button3);
             this.Controls.Add(this.guna2Button2);
             this.Controls.Add(this.guna2Button1);
@@ -161,7 +137,6 @@
             this.Text = "QRcodeForm";
             this.Load += new System.EventHandler(this.QRcodeForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PicQR)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -176,7 +151,5 @@
         private System.Windows.Forms.Timer timer1;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
-        private System.Windows.Forms.Label label2;
     }
 }
