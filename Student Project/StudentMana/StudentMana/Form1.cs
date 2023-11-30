@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -85,8 +86,6 @@ namespace StudentMana
 
         }
     
-
-
         private void PasswordText_TextChanged(object sender, EventArgs e)
         {
 
@@ -119,12 +118,12 @@ namespace StudentMana
                 default: break;
             }
         }
-
+        /*Close Form*/
         private void ButtonClosed_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-
+        /*Minimize Form*/
         private void ButtonMinimze_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;
@@ -134,7 +133,7 @@ namespace StudentMana
         {
 
         }
-
+        /*Cusor Moving Form*/
         private void Form_move(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
@@ -149,6 +148,93 @@ namespace StudentMana
             mouseLocation = new Point(-e.X, -e.Y);
         }
 
+     
+        /*Login in multiple form*/
+        private void LogInbutton_Click(object sender, EventArgs e)
+        {
+            /* if ((UserIDTextBox.Text.Equals("trankienphong")) && (PasswordText.Text.Equals("2003")))
+             {
+                 Form form2 = new StudentForm();
+                 form2.ShowDialog();
+             }
+             else
+             {
+                 MessageBox.Show("Your Login ID or Password is not corret");
+
+             }*/
+            if (UserIDTextBox.Text != null && PasswordText.Text != null)
+            {
+                string username = UserIDTextBox.Text;
+                string password = PasswordText.Text;
+
+                switch (username)
+                {
+                    case "trankienphong":
+                        if (password.Equals("2003"))
+                        {
+                            Form form2 = new StudentForm();
+                            form2.ShowDialog();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Your Login ID or Password is not correct");
+                        }
+                        break;
+
+                    case "giangvien":
+                        if (password.Equals("giangvien"))
+                        {
+                            Form form3 = new TeacherForm();
+                            form3.ShowDialog();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Your Login ID or Password is not correct");
+                        }
+                        break;
+
+                    case "giaovu":
+                        if (password.Equals("giaovu"))
+                        {
+                            Form form4 = new GiaoVuForm();
+                            form4.ShowDialog();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Your Login ID or Password is not correct");
+                        }
+                        break;
+
+                    case "admin":
+                        if (password.Equals("admin"))
+                        {
+                            Form form5 = new AdminForm();
+                            form5.ShowDialog();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Your Login ID or Password is not correct");
+                        }
+                        break;
+
+                    default:
+                        MessageBox.Show("User not found");
+                        break;
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please enter both Login ID and Password");
+            }
+
+        }
+
+        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        /*Form2*/
         private void ForgotpassButton_Click(object sender, EventArgs e)
         {
             Form modalBackground = new Form();
