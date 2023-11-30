@@ -26,3 +26,7 @@ using AForge.Video;
 using AForge.Video.DirectShow;
 using ZXing;
 using ZXing.QrCode;
+
+
+1/12/2023 - Tran Kien Phong
+Create a basic Student form

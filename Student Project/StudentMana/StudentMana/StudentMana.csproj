@@ -139,6 +139,9 @@
     <EmbeddedResource Include="SignUpForm.resx">
       <DependentUpon>SignUpForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="StudentForm.resx">
+      <DependentUpon>StudentForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -176,6 +179,63 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-home-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-home-501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-system-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-course-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-administrator-male-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\367360339_1118737012843888_6418303228561789279_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-macbook-money-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
