@@ -35,6 +35,7 @@
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.QrScannerButton = new Guna.UI2.WinForms.Guna2Button();
             this.RememberPass = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.RememberToggle = new Guna.UI2.WinForms.Guna2ToggleSwitch();
             this.EyeOpenButton = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -47,7 +48,6 @@
             this.PasswordText = new Guna.UI2.WinForms.Guna2TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.modalsettimer = new System.Windows.Forms.Timer(this.components);
-            this.QrScannerButton = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -88,6 +88,7 @@
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(1138, 45);
             this.guna2Panel3.TabIndex = 3;
+            this.guna2Panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel3_Paint);
             this.guna2Panel3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_down);
             this.guna2Panel3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form_move);
             // 
@@ -141,6 +142,25 @@
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(413, 725);
             this.guna2CustomGradientPanel1.TabIndex = 1;
             this.guna2CustomGradientPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2CustomGradientPanel1_Paint);
+            // 
+            // QrScannerButton
+            // 
+            this.QrScannerButton.Animated = true;
+            this.QrScannerButton.BackColor = System.Drawing.Color.Transparent;
+            this.QrScannerButton.BorderRadius = 10;
+            this.QrScannerButton.DefaultAutoSize = true;
+            this.QrScannerButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.QrScannerButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.QrScannerButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.QrScannerButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.QrScannerButton.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Bold);
+            this.QrScannerButton.ForeColor = System.Drawing.Color.White;
+            this.QrScannerButton.Location = new System.Drawing.Point(64, 444);
+            this.QrScannerButton.Name = "QrScannerButton";
+            this.QrScannerButton.Size = new System.Drawing.Size(139, 33);
+            this.QrScannerButton.TabIndex = 24;
+            this.QrScannerButton.Text = "Scan QR here!";
+            this.QrScannerButton.Click += new System.EventHandler(this.QrScannerButton_Click);
             // 
             // RememberPass
             // 
@@ -322,25 +342,6 @@
             this.label3.Size = new System.Drawing.Size(396, 37);
             this.label3.TabIndex = 1;
             this.label3.Text = "Welcome back to our group1";
-            // 
-            // QrScannerButton
-            // 
-            this.QrScannerButton.Animated = true;
-            this.QrScannerButton.BackColor = System.Drawing.Color.Transparent;
-            this.QrScannerButton.BorderRadius = 10;
-            this.QrScannerButton.DefaultAutoSize = true;
-            this.QrScannerButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.QrScannerButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.QrScannerButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.QrScannerButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.QrScannerButton.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Bold);
-            this.QrScannerButton.ForeColor = System.Drawing.Color.White;
-            this.QrScannerButton.Location = new System.Drawing.Point(64, 444);
-            this.QrScannerButton.Name = "QrScannerButton";
-            this.QrScannerButton.Size = new System.Drawing.Size(139, 33);
-            this.QrScannerButton.TabIndex = 24;
-            this.QrScannerButton.Text = "Scan QR here!";
-            this.QrScannerButton.Click += new System.EventHandler(this.QrScannerButton_Click);
             // 
             // Form1
             // 

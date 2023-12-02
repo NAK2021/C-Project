@@ -46,7 +46,7 @@ namespace StudentMana
             PasswordText.MouseLeave += new EventHandler(PasswordText_MouseLeave);
 
         }
-        /*Moving form by mouse point*/
+
       
 
         private void Form1_Load(object sender, EventArgs e)
@@ -258,6 +258,11 @@ namespace StudentMana
                 modalBackground.Dispose();
 
             }
+        }
+
+        private void guna2Panel3_Paint(object sender, PaintEventArgs e)
+        {
+
         }
 
         /*Form2*/

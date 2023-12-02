@@ -24,3 +24,8 @@ D:\Programming\C# project\Student Project\StudentMana\StudentMana\bin\Debug\zxin
 D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.QRcodeForm.resources
 D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.FormQr.resources
 D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.StudentForm.resources
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.StudentForm_HomeButton.resources
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.StudentForm_CourseButton.resources
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.StudentForm_Setting.resources
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.StudentForm_StudentFee.resources
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.StudentForm_StudentProfile.resources

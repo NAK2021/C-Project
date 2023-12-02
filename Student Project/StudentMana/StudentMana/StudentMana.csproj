@@ -111,6 +111,36 @@
     <Compile Include="StudentForm.Designer.cs">
       <DependentUpon>StudentForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="StudentForm_CourseButton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentForm_CourseButton.Designer.cs">
+      <DependentUpon>StudentForm_CourseButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentForm_HomeButton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentForm_HomeButton.Designer.cs">
+      <DependentUpon>StudentForm_HomeButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentForm_Setting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentForm_Setting.Designer.cs">
+      <DependentUpon>StudentForm_Setting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentForm_StudentFee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentForm_StudentFee.Designer.cs">
+      <DependentUpon>StudentForm_StudentFee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentForm_StudentProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentForm_StudentProfile.Designer.cs">
+      <DependentUpon>StudentForm_StudentProfile.cs</DependentUpon>
+    </Compile>
     <Compile Include="TeacherForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -141,6 +171,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="StudentForm.resx">
       <DependentUpon>StudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentForm_CourseButton.resx">
+      <DependentUpon>StudentForm_CourseButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentForm_HomeButton.resx">
+      <DependentUpon>StudentForm_HomeButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentForm_Setting.resx">
+      <DependentUpon>StudentForm_Setting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentForm_StudentFee.resx">
+      <DependentUpon>StudentForm_StudentFee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentForm_StudentProfile.resx">
+      <DependentUpon>StudentForm_StudentProfile.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -236,6 +281,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\close1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-logout-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-down-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-down-24 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\403604064_1426511601284473_762316867722643294_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-minimize-24.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
