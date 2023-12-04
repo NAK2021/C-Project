@@ -34,3 +34,7 @@ Create a multi child form for form
 
 2/12/2023 - Tran Kien Phong
 Create a drop down menu* but still cant overwrite the panel
+
+5:23 PM 12/4/2023 -Nguyen Khang
+Upload mot file c# tu trong may ten la AdminForm
+*File co the chua hoan chinh, thu xem co bi loi gi khong roi se chinh sua lai sau

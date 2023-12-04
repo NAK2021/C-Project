@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "mwKHTkri97kYFakD1/3xbCvGvayZmaZ7t3aECl24vP8aCaV/JJ2hDtMfdFASfYNz5sTqTwtypb6FMVd9DTVCxw==",
+  "success": true,
+  "projectFilePath": "O:\\Code\\C# Window Form Applications\\C# Project_SchoolManager\\AdminForm\\AdminForm.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\khang\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",
+    "C:\\Users\\khang\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
+    "C:\\Users\\khang\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
