@@ -35,3 +35,40 @@ D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\Stud
 D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.Teacher_profile.resources
 D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.Teacher_setting.resources
 D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.Teacher_documents.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\bin\Debug\StudentMana.exe.config
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\bin\Debug\StudentMana.exe
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\bin\Debug\StudentMana.pdb
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\bin\Debug\AForge.dll
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\bin\Debug\AForge.Video.DirectShow.dll
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\bin\Debug\AForge.Video.dll
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\bin\Debug\Guna.UI2.dll
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\bin\Debug\zxing.dll
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\bin\Debug\zxing.presentation.dll
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\bin\Debug\AForge.xml
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\bin\Debug\AForge.Video.xml
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\bin\Debug\AForge.Video.DirectShow.xml
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\bin\Debug\zxing.xml
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\bin\Debug\zxing.presentation.xml
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.csproj.AssemblyReference.cache
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.Form1.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.FormQr.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.Properties.Resources.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.QRcodeForm.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.SignupForm.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.StudentForm.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.StudentForm_CourseButton.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.StudentForm_HomeButton.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.StudentForm_Setting.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.StudentForm_StudentFee.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.StudentForm_StudentProfile.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.TeacherForm.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.Teacher_course.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.Teacher_documents.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.Teacher_Home.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.Teacher_profile.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.Teacher_setting.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.csproj.GenerateResource.cache
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.csproj.CoreCompileInputs.cache
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.csproj.CopyComplete
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.exe
+O:\Code\C# Window Form Applications\Test clone\C-Project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.pdb
