@@ -103,6 +103,26 @@ namespace StudentMana.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dai_hoc_cong_nghe_tphcm {
+            get {
+                object obj = ResourceManager.GetObject("dai-hoc-cong-nghe-tphcm", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dai_hoc_cong_nghe_tphcm1 {
+            get {
+                object obj = ResourceManager.GetObject("dai-hoc-cong-nghe-tphcm1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap eyeopen {
             get {
                 object obj = ResourceManager.GetObject("eyeopen", resourceCulture);
@@ -196,6 +216,16 @@ namespace StudentMana.Properties {
         internal static System.Drawing.Bitmap icons8_course_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-course-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_document_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-document-64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

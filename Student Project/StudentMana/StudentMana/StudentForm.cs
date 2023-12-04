@@ -175,6 +175,12 @@ namespace StudentMana
 
         }
 
+        private void guna2VScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+
+
+        }
+
         private void guna2PictureBox9_Click_1(object sender, EventArgs e)
         {
 

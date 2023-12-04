@@ -147,6 +147,36 @@
     <Compile Include="TeacherForm.Designer.cs">
       <DependentUpon>TeacherForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Teacher_course.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher_course.Designer.cs">
+      <DependentUpon>Teacher_course.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher_documents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher_documents.Designer.cs">
+      <DependentUpon>Teacher_documents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher_Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher_Home.Designer.cs">
+      <DependentUpon>Teacher_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher_profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher_profile.Designer.cs">
+      <DependentUpon>Teacher_profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher_setting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher_setting.Designer.cs">
+      <DependentUpon>Teacher_setting.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -186,6 +216,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="StudentForm_StudentProfile.resx">
       <DependentUpon>StudentForm_StudentProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherForm.resx">
+      <DependentUpon>TeacherForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher_course.resx">
+      <DependentUpon>Teacher_course.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher_documents.resx">
+      <DependentUpon>Teacher_documents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher_Home.resx">
+      <DependentUpon>Teacher_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher_profile.resx">
+      <DependentUpon>Teacher_profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher_setting.resx">
+      <DependentUpon>Teacher_setting.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -296,6 +344,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-minimize-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dai-hoc-cong-nghe-tphcm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dai-hoc-cong-nghe-tphcm1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-document-64.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

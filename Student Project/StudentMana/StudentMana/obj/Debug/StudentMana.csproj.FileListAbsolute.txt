@@ -29,3 +29,9 @@ D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\Stud
 D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.StudentForm_Setting.resources
 D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.StudentForm_StudentFee.resources
 D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.StudentForm_StudentProfile.resources
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.TeacherForm.resources
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.Teacher_Home.resources
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.Teacher_course.resources
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.Teacher_profile.resources
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.Teacher_setting.resources
+D:\Programming\C# project\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.Teacher_documents.resources
