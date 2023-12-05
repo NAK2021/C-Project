@@ -79,6 +79,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormQr.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -182,6 +188,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormQr.resx">
       <DependentUpon>FormQr.cs</DependentUpon>
@@ -513,6 +522,11 @@
     <Content Include="Properties\working6.jpeg" />
     <Content Include="Properties\working7.png" />
     <Content Include="Properties\working71.png" />
+    <None Include="Resources\down.png" />
+    <None Include="Resources\doc.png" />
+    <None Include="Resources\info.png" />
+    <None Include="Resources\border1.png" />
+    <None Include="Resources\border.png" />
     <None Include="Resources\working711.png" />
     <None Include="Resources\working211.png" />
     <None Include="Resources\Picture31.png" />

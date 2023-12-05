@@ -13,6 +13,7 @@ namespace StudentMana
 {
     public partial class AdminForm : Form
     {
+        bool isPanelMenuOn = true;
         public AdminForm()
         {
             InitializeComponent();
@@ -66,6 +67,42 @@ namespace StudentMana
         private void MinimizeBtn_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;
+        }
+
+        private void SideBar_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ExitBtn_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void downbtn_Click(object sender, EventArgs e)
+        {
+            Form2 f2 = new Form2();
+            if (isPanelMenuOn) 
+            {
+                
+                f2.TopLevel = false;
+                if (PanelMenu.Controls.Count > 0)
+                    PanelMenu.Controls.Clear();
+                PanelMenu.Controls.Add(f2);
+                f2.BringToFront();
+                f2.Show();
+                isPanelMenuOn = false;
+            }
+            else
+            {
+                f2.Close();
+            }
+            
         }
     }
 }

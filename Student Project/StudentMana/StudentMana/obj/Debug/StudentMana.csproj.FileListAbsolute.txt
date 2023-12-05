@@ -110,3 +110,4 @@ O:\Code\C# Window Form Applications\Test clone\C-Project - Copy\Student Project\
 O:\Code\C# Window Form Applications\Test clone\C-Project - Copy\Student Project\StudentMana\StudentMana\bin\Debug\zxing.presentation.xml
 O:\Code\C# Window Form Applications\Test clone\C-Project - Copy\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.AdminForm.resources
 O:\Code\C# Window Form Applications\Test clone\C-Project - Copy\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.csproj.CopyComplete
+O:\Code\C# Window Form Applications\Test clone\C-Project - Copy\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.Form2.resources
