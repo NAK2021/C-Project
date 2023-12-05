@@ -67,11 +67,83 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdminForm.cs">
+    <Compile Include="AdminForm\AdminForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdminForm.Designer.cs">
+    <Compile Include="AdminForm\AdminForm.Designer.cs">
       <DependentUpon>AdminForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForm\Admin\AdminForm_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForm\Admin\AdminForm_Admin.Designer.cs">
+      <DependentUpon>AdminForm_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForm\Dashboard\AdminForm_D_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForm\Dashboard\AdminForm_D_Admin.Designer.cs">
+      <DependentUpon>AdminForm_D_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForm\Dashboard\AdminForm_D_Blocked.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForm\Dashboard\AdminForm_D_Blocked.Designer.cs">
+      <DependentUpon>AdminForm_D_Blocked.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForm\Dashboard\AdminForm_D_Classes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForm\Dashboard\AdminForm_D_Classes.Designer.cs">
+      <DependentUpon>AdminForm_D_Classes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForm\Dashboard\AdminForm_D_Lecture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForm\Dashboard\AdminForm_D_Lecture.Designer.cs">
+      <DependentUpon>AdminForm_D_Lecture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForm\Dashboard\AdminForm_D_Sheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForm\Dashboard\AdminForm_D_Sheet.Designer.cs">
+      <DependentUpon>AdminForm_D_Sheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForm\Dashboard\AdminForm_D_Student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForm\Dashboard\AdminForm_D_Student.Designer.cs">
+      <DependentUpon>AdminForm_D_Student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForm\Dashboard\AdminForm_D_Terms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForm\Dashboard\AdminForm_D_Terms.Designer.cs">
+      <DependentUpon>AdminForm_D_Terms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForm\Page\AdminForm_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForm\Page\AdminForm_Page.Designer.cs">
+      <DependentUpon>AdminForm_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForm\System\AdminForm_System.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForm\System\AdminForm_System.Designer.cs">
+      <DependentUpon>AdminForm_System.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForm\User\AdminForm_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForm\User\AdminForm_User.Designer.cs">
+      <DependentUpon>AdminForm_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForm\Dashboard\Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForm\Dashboard\Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -111,80 +183,116 @@
     <Compile Include="SignUpForm.Designer.cs">
       <DependentUpon>SignUpForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="StudentForm.cs">
+    <Compile Include="StudentForm\StudentForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StudentForm.Designer.cs">
+    <Compile Include="StudentForm\StudentForm.Designer.cs">
       <DependentUpon>StudentForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="StudentForm_CourseButton.cs">
+    <Compile Include="StudentForm\StudentForm_CourseButton.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StudentForm_CourseButton.Designer.cs">
+    <Compile Include="StudentForm\StudentForm_CourseButton.Designer.cs">
       <DependentUpon>StudentForm_CourseButton.cs</DependentUpon>
     </Compile>
-    <Compile Include="StudentForm_HomeButton.cs">
+    <Compile Include="StudentForm\StudentForm_HomeButton.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StudentForm_HomeButton.Designer.cs">
+    <Compile Include="StudentForm\StudentForm_HomeButton.Designer.cs">
       <DependentUpon>StudentForm_HomeButton.cs</DependentUpon>
     </Compile>
-    <Compile Include="StudentForm_Setting.cs">
+    <Compile Include="StudentForm\StudentForm_Setting.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StudentForm_Setting.Designer.cs">
+    <Compile Include="StudentForm\StudentForm_Setting.Designer.cs">
       <DependentUpon>StudentForm_Setting.cs</DependentUpon>
     </Compile>
-    <Compile Include="StudentForm_StudentFee.cs">
+    <Compile Include="StudentForm\StudentForm_StudentFee.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StudentForm_StudentFee.Designer.cs">
+    <Compile Include="StudentForm\StudentForm_StudentFee.Designer.cs">
       <DependentUpon>StudentForm_StudentFee.cs</DependentUpon>
     </Compile>
-    <Compile Include="StudentForm_StudentProfile.cs">
+    <Compile Include="StudentForm\StudentForm_StudentProfile.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StudentForm_StudentProfile.Designer.cs">
+    <Compile Include="StudentForm\StudentForm_StudentProfile.Designer.cs">
       <DependentUpon>StudentForm_StudentProfile.cs</DependentUpon>
     </Compile>
-    <Compile Include="TeacherForm.cs">
+    <Compile Include="TeacherForm\TeacherForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TeacherForm.Designer.cs">
+    <Compile Include="TeacherForm\TeacherForm.Designer.cs">
       <DependentUpon>TeacherForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Teacher_course.cs">
+    <Compile Include="TeacherForm\Teacher_course.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Teacher_course.Designer.cs">
+    <Compile Include="TeacherForm\Teacher_course.Designer.cs">
       <DependentUpon>Teacher_course.cs</DependentUpon>
     </Compile>
-    <Compile Include="Teacher_documents.cs">
+    <Compile Include="TeacherForm\Teacher_documents.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Teacher_documents.Designer.cs">
+    <Compile Include="TeacherForm\Teacher_documents.Designer.cs">
       <DependentUpon>Teacher_documents.cs</DependentUpon>
     </Compile>
-    <Compile Include="Teacher_Home.cs">
+    <Compile Include="TeacherForm\Teacher_Home.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Teacher_Home.Designer.cs">
+    <Compile Include="TeacherForm\Teacher_Home.Designer.cs">
       <DependentUpon>Teacher_Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="Teacher_profile.cs">
+    <Compile Include="TeacherForm\Teacher_profile.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Teacher_profile.Designer.cs">
+    <Compile Include="TeacherForm\Teacher_profile.Designer.cs">
       <DependentUpon>Teacher_profile.cs</DependentUpon>
     </Compile>
-    <Compile Include="Teacher_setting.cs">
+    <Compile Include="TeacherForm\Teacher_setting.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Teacher_setting.Designer.cs">
+    <Compile Include="TeacherForm\Teacher_setting.Designer.cs">
       <DependentUpon>Teacher_setting.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AdminForm.resx">
+    <EmbeddedResource Include="AdminForm\AdminForm.resx">
       <DependentUpon>AdminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForm\Admin\AdminForm_Admin.resx">
+      <DependentUpon>AdminForm_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForm\Dashboard\AdminForm_D_Admin.resx">
+      <DependentUpon>AdminForm_D_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForm\Dashboard\AdminForm_D_Blocked.resx">
+      <DependentUpon>AdminForm_D_Blocked.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForm\Dashboard\AdminForm_D_Classes.resx">
+      <DependentUpon>AdminForm_D_Classes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForm\Dashboard\AdminForm_D_Lecture.resx">
+      <DependentUpon>AdminForm_D_Lecture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForm\Dashboard\AdminForm_D_Sheet.resx">
+      <DependentUpon>AdminForm_D_Sheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForm\Dashboard\AdminForm_D_Student.resx">
+      <DependentUpon>AdminForm_D_Student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForm\Dashboard\AdminForm_D_Terms.resx">
+      <DependentUpon>AdminForm_D_Terms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForm\Page\AdminForm_Page.resx">
+      <DependentUpon>AdminForm_Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForm\System\AdminForm_System.resx">
+      <DependentUpon>AdminForm_System.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForm\User\AdminForm_User.resx">
+      <DependentUpon>AdminForm_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForm\Dashboard\Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -211,40 +319,40 @@
     <EmbeddedResource Include="SignUpForm.resx">
       <DependentUpon>SignUpForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StudentForm.resx">
+    <EmbeddedResource Include="StudentForm\StudentForm.resx">
       <DependentUpon>StudentForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StudentForm_CourseButton.resx">
+    <EmbeddedResource Include="StudentForm\StudentForm_CourseButton.resx">
       <DependentUpon>StudentForm_CourseButton.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StudentForm_HomeButton.resx">
+    <EmbeddedResource Include="StudentForm\StudentForm_HomeButton.resx">
       <DependentUpon>StudentForm_HomeButton.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StudentForm_Setting.resx">
+    <EmbeddedResource Include="StudentForm\StudentForm_Setting.resx">
       <DependentUpon>StudentForm_Setting.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StudentForm_StudentFee.resx">
+    <EmbeddedResource Include="StudentForm\StudentForm_StudentFee.resx">
       <DependentUpon>StudentForm_StudentFee.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StudentForm_StudentProfile.resx">
+    <EmbeddedResource Include="StudentForm\StudentForm_StudentProfile.resx">
       <DependentUpon>StudentForm_StudentProfile.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TeacherForm.resx">
+    <EmbeddedResource Include="TeacherForm\TeacherForm.resx">
       <DependentUpon>TeacherForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Teacher_course.resx">
+    <EmbeddedResource Include="TeacherForm\Teacher_course.resx">
       <DependentUpon>Teacher_course.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Teacher_documents.resx">
+    <EmbeddedResource Include="TeacherForm\Teacher_documents.resx">
       <DependentUpon>Teacher_documents.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Teacher_Home.resx">
+    <EmbeddedResource Include="TeacherForm\Teacher_Home.resx">
       <DependentUpon>Teacher_Home.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Teacher_profile.resx">
+    <EmbeddedResource Include="TeacherForm\Teacher_profile.resx">
       <DependentUpon>Teacher_profile.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Teacher_setting.resx">
+    <EmbeddedResource Include="TeacherForm\Teacher_setting.resx">
       <DependentUpon>Teacher_setting.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />

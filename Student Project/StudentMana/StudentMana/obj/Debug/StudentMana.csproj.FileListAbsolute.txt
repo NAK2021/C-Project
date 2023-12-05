@@ -111,3 +111,14 @@ O:\Code\C# Window Form Applications\Test clone\C-Project - Copy\Student Project\
 O:\Code\C# Window Form Applications\Test clone\C-Project - Copy\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.AdminForm.resources
 O:\Code\C# Window Form Applications\Test clone\C-Project - Copy\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.csproj.CopyComplete
 O:\Code\C# Window Form Applications\Test clone\C-Project - Copy\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.Form2.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project - Copy\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.Dashboard.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project - Copy\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.AdminForm_Admin.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project - Copy\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.AdminForm_Page.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project - Copy\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.AdminForm_System.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project - Copy\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.AdminForm_User.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project - Copy\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.AdminForm_D_Admin.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project - Copy\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.AdminForm_D_Blocked.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project - Copy\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.AdminForm_D_Classes.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project - Copy\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.AdminForm_D_Lecture.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project - Copy\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.AdminForm_D_Sheet.resources
+O:\Code\C# Window Form Applications\Test clone\C-Project - Copy\Student Project\StudentMana\StudentMana\obj\Debug\StudentMana.AdminForm_D_Student.resources
