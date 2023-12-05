@@ -1,0 +1,51 @@
+29/11/2023 - Tran Kien Phong
+Overview the log in form
+
+Hidden password
+
+Set border for form
+
+Minimize and close icon for form
+
+Setting Num lock and Cap lock warning
+
+30/11/2023 - Tran Kien Phong
+Create 4 forms and faking 4 user for 4 forms
+
+Setting remember me toggle
+
+Package install to make QR login 
+Install-Package AForge
+ Install-Package AForge.Video
+Install-Package AForge.Video.DirectShow
+Install-Package ZXing.Net
+
+setting form
+using AForge;
+using AForge.Video;
+using AForge.Video.DirectShow;
+using ZXing;
+using ZXing.QrCode;
+
+
+1/12/2023 - Tran Kien Phong
+Create a basic Student form
+Create a multi child form for form 
+
+2/12/2023 - Tran Kien Phong
+Create a drop down menu* but still cant overwrite the panel
+<<<<<<< HEAD
+Create a Teacher form same like student form
+
+=======
+
+5:23 PM 12/4/2023 -Nguyen Khang
+Upload mot file c# tu trong may ten la AdminForm
+*File co the chua hoan chinh, thu xem co bi loi gi khong roi se chinh sua lai sau
+>>>>>>> 87e70d944e9c09d4e8c307f7d8a36bef8ce23706
+
+9:44 PM 12/4/2023 - Nguyen Khang
+Chinh 1 chut hellooo
+
+3:26 PM 12/5/2023 - Nguyen Khang
+Da dem du lieu AdminForm vao trong StudentMana

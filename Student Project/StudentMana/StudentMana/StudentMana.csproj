@@ -177,6 +177,9 @@
     <Compile Include="Teacher_setting.Designer.cs">
       <DependentUpon>Teacher_setting.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AdminForm.resx">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -353,6 +356,258 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-document-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\369835101_370602098836253_5079926883478424692_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\370320530_313256398216149_7738198041069276265_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\371541755_866240034999247_6567698550006143890_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\371546106_720503269623999_8591521417124838250_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\377292198_1011645793256981_3198304229031525998_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\385529548_336333329026296_6421509646583869684_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\387488632_284080001292776_2954258289242546951_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\401073825_1276203446391056_7309676746048183116_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\403403520_235298552794496_954769670145796984_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\403406882_313853028202794_1798676272926479777_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\403407022_236094802710204_1942176848587975453_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\403408276_325207010265654_5987268246162864927_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\403417610_876511043803129_1610430810554122372_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\403421994_3574492662808215_5042133387376598742_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\403571752_1068888847577949_7968093632828527927_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\403603281_276240748754723_5534074761311001444_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\403612323_235417929448852_586884916261531474_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Properties\367360339_1118737012843888_6418303228561789279_n.png" />
+    <Content Include="Properties\367360339_1118737012843888_6418303228561789279_n1.png" />
+    <Content Include="Properties\369835101_370602098836253_5079926883478424692_n.png" />
+    <Content Include="Properties\370253739_1265140744880301_6846145733570899567_n.png" />
+    <Content Include="Properties\370320530_313256398216149_7738198041069276265_n.png" />
+    <Content Include="Properties\371541755_866240034999247_6567698550006143890_n.png" />
+    <Content Include="Properties\371541755_866240034999247_6567698550006143890_n1.png" />
+    <Content Include="Properties\371541755_866240034999247_6567698550006143890_n2.png" />
+    <Content Include="Properties\371546106_720503269623999_8591521417124838250_n.png" />
+    <Content Include="Properties\377292198_1011645793256981_3198304229031525998_n1.png" />
+    <Content Include="Properties\385529548_336333329026296_6421509646583869684_n1.png" />
+    <Content Include="Properties\387488632_284080001292776_2954258289242546951_n.png" />
+    <Content Include="Properties\401073825_1276203446391056_7309676746048183116_n.png" />
+    <Content Include="Properties\403403520_235298552794496_954769670145796984_n.png" />
+    <Content Include="Properties\403406882_313853028202794_1798676272926479777_n.png" />
+    <Content Include="Properties\403406882_313853028202794_1798676272926479777_n1.png" />
+    <Content Include="Properties\403406882_313853028202794_1798676272926479777_n2.png" />
+    <Content Include="Properties\403406882_313853028202794_1798676272926479777_n3.png" />
+    <Content Include="Properties\403406882_313853028202794_1798676272926479777_n4.png" />
+    <Content Include="Properties\403407022_236094802710204_1942176848587975453_n.png" />
+    <Content Include="Properties\403408276_325207010265654_5987268246162864927_n1.png" />
+    <Content Include="Properties\403408276_325207010265654_5987268246162864927_n2.png" />
+    <Content Include="Properties\403417610_876511043803129_1610430810554122372_n.png" />
+    <Content Include="Properties\403421994_3574492662808215_5042133387376598742_n.png" />
+    <Content Include="Properties\403571752_1068888847577949_7968093632828527927_n1.png" />
+    <Content Include="Properties\403603281_276240748754723_5534074761311001444_n.png" />
+    <Content Include="Properties\403604064_1426511601284473_762316867722643294_n.png" />
+    <Content Include="Properties\403604064_1426511601284473_762316867722643294_n1.png" />
+    <Content Include="Properties\403612323_235417929448852_586884916261531474_n1.png" />
+    <Content Include="Properties\close.png" />
+    <Content Include="Properties\close1.png" />
+    <Content Include="Properties\close11.png" />
+    <Content Include="Properties\dai-hoc-cong-nghe-tphcm.jpg" />
+    <Content Include="Properties\dai-hoc-cong-nghe-tphcm1.jpg" />
+    <Content Include="Properties\eyeopen.png" />
+    <Content Include="Properties\eyeopen1.png" />
+    <Content Include="Properties\icon1.jpg" />
+    <Content Include="Properties\icon11.jpg" />
+    <Content Include="Properties\icon2.png" />
+    <Content Include="Properties\icon21.png" />
+    <Content Include="Properties\icon3.png" />
+    <Content Include="Properties\icon31.png" />
+    <Content Include="Properties\icon5.png" />
+    <Content Include="Properties\icon51.png" />
+    <Content Include="Properties\icon511.png" />
+    <Content Include="Properties\icons8-administrator-male-24.png" />
+    <Content Include="Properties\icons8-administrator-male-241.png" />
+    <Content Include="Properties\icons8-close-240.png" />
+    <Content Include="Properties\icons8-close-48.png" />
+    <Content Include="Properties\icons8-close-481.png" />
+    <Content Include="Properties\icons8-close-4811.png" />
+    <Content Include="Properties\icons8-course-50.png" />
+    <Content Include="Properties\icons8-course-501.png" />
+    <Content Include="Properties\icons8-document-64.png" />
+    <Content Include="Properties\icons8-down-24 %281%29.png" />
+    <Content Include="Properties\icons8-down-24 %281%291.png" />
+    <Content Include="Properties\icons8-down-24.png" />
+    <Content Include="Properties\icons8-down-241.png" />
+    <Content Include="Properties\icons8-eye-64.png" />
+    <Content Include="Properties\icons8-eye-641.png" />
+    <Content Include="Properties\icons8-home-50.png" />
+    <Content Include="Properties\icons8-home-501.png" />
+    <Content Include="Properties\icons8-home-5011.png" />
+    <Content Include="Properties\icons8-logout-50.png" />
+    <Content Include="Properties\icons8-logout-501.png" />
+    <Content Include="Properties\icons8-macbook-money-50.png" />
+    <Content Include="Properties\icons8-macbook-money-501.png" />
+    <Content Include="Properties\icons8-male-user.gif" />
+    <Content Include="Properties\icons8-minimize-24.png" />
+    <Content Include="Properties\icons8-minimize-241.png" />
+    <Content Include="Properties\icons8-search-50.png" />
+    <Content Include="Properties\icons8-search-501.png" />
+    <Content Include="Properties\icons8-system-50.png" />
+    <Content Include="Properties\icons8-system-501.png" />
+    <Content Include="Properties\icons8-user-64.png" />
+    <Content Include="Properties\icons8-user-641.png" />
+    <Content Include="Properties\icons8-user.gif" />
+    <Content Include="Properties\icons8-user1.gif" />
+    <Content Include="Properties\icons8-user11.gif" />
+    <Content Include="Properties\minimize.png" />
+    <Content Include="Properties\minimize1.png" />
+    <Content Include="Properties\minimize11.png" />
+    <Content Include="Properties\pass1.png" />
+    <Content Include="Properties\pass11.png" />
+    <Content Include="Properties\Picture1.png" />
+    <Content Include="Properties\Picture2.jpg" />
+    <Content Include="Properties\Picture3.png" />
+    <Content Include="Properties\working2.jpeg" />
+    <Content Include="Properties\working2.png" />
+    <Content Include="Properties\working21.png" />
+    <Content Include="Properties\working4.jpeg" />
+    <Content Include="Properties\working5.jpeg" />
+    <Content Include="Properties\working6.jpeg" />
+    <Content Include="Properties\working7.png" />
+    <Content Include="Properties\working71.png" />
+    <None Include="Resources\working711.png" />
+    <None Include="Resources\working211.png" />
+    <None Include="Resources\Picture31.png" />
+    <None Include="Resources\Picture21.jpg" />
+    <None Include="Resources\Picture11.png" />
+    <None Include="Resources\pass111.png" />
+    <None Include="Resources\minimize111.png" />
+    <None Include="Resources\minimize11.png" />
+    <None Include="Resources\icons8-user-6411.png" />
+    <None Include="Resources\icons8-user111.gif" />
+    <None Include="Resources\icons8-user11.gif" />
+    <None Include="Resources\icons8-system-5011.png" />
+    <None Include="Resources\icons8-search-5011.png" />
+    <None Include="Resources\icons8-minimize-2411.png" />
+    <None Include="Resources\icons8-macbook-money-5011.png" />
+    <None Include="Resources\icons8-logout-5011.png" />
+    <None Include="Resources\icons8-home-50111.png" />
+    <None Include="Resources\icons8-home-5011.png" />
+    <None Include="Resources\icons8-eye-6411.png" />
+    <None Include="Resources\icons8-down-2411.png" />
+    <None Include="Resources\icons8-down-24 %281%2911.png" />
+    <None Include="Resources\icons8-document-641.png" />
+    <None Include="Resources\icons8-course-5011.png" />
+    <None Include="Resources\icons8-close-48111.png" />
+    <None Include="Resources\icons8-close-4811.png" />
+    <None Include="Resources\icons8-administrator-male-2411.png" />
+    <None Include="Resources\icon5111.png" />
+    <None Include="Resources\icon511.png" />
+    <None Include="Resources\icon311.png" />
+    <None Include="Resources\icon211.png" />
+    <None Include="Resources\icon111.jpg" />
+    <None Include="Resources\eyeopen11.png" />
+    <None Include="Resources\dai-hoc-cong-nghe-tphcm11.jpg" />
+    <None Include="Resources\dai-hoc-cong-nghe-tphcm2.jpg" />
+    <None Include="Resources\close111.png" />
+    <None Include="Resources\close11.png" />
+    <None Include="Resources\403604064_1426511601284473_762316867722643294_n11.png" />
+    <None Include="Resources\367360339_1118737012843888_6418303228561789279_n11.png" />
+    <None Include="Resources\403612323_235417929448852_586884916261531474_n1.png" />
+    <None Include="Resources\403603281_276240748754723_5534074761311001444_n1.png" />
+    <None Include="Resources\403571752_1068888847577949_7968093632828527927_n1.png" />
+    <None Include="Resources\403421994_3574492662808215_5042133387376598742_n1.png" />
+    <None Include="Resources\403417610_876511043803129_1610430810554122372_n1.png" />
+    <None Include="Resources\403408276_325207010265654_5987268246162864927_n2.png" />
+    <None Include="Resources\403407022_236094802710204_1942176848587975453_n1.png" />
+    <None Include="Resources\403406882_313853028202794_1798676272926479777_n4.png" />
+    <None Include="Resources\403403520_235298552794496_954769670145796984_n1.png" />
+    <None Include="Resources\401073825_1276203446391056_7309676746048183116_n1.png" />
+    <None Include="Resources\387488632_284080001292776_2954258289242546951_n1.png" />
+    <None Include="Resources\385529548_336333329026296_6421509646583869684_n1.png" />
+    <None Include="Resources\377292198_1011645793256981_3198304229031525998_n1.png" />
+    <None Include="Resources\371546106_720503269623999_8591521417124838250_n1.png" />
+    <None Include="Resources\371541755_866240034999247_6567698550006143890_n2.png" />
+    <None Include="Resources\370320530_313256398216149_7738198041069276265_n1.png" />
+    <None Include="Resources\369835101_370602098836253_5079926883478424692_n1.png" />
+    <None Include="Resources\working71.png" />
+    <None Include="Resources\working6.jpeg" />
+    <None Include="Resources\working5.jpeg" />
+    <None Include="Resources\working4.jpeg" />
+    <None Include="Resources\working21.png" />
+    <None Include="Resources\working2.jpeg" />
+    <None Include="Resources\pass11.png" />
+    <None Include="Resources\minimize2.png" />
+    <None Include="Resources\icons8-user-641.png" />
+    <None Include="Resources\icons8-user2.gif" />
+    <None Include="Resources\icons8-system-501.png" />
+    <None Include="Resources\icons8-search-501.png" />
+    <None Include="Resources\icons8-minimize-241.png" />
+    <None Include="Resources\icons8-male-user.gif" />
+    <None Include="Resources\icons8-macbook-money-501.png" />
+    <None Include="Resources\icons8-logout-501.png" />
+    <None Include="Resources\icons8-home-502.png" />
+    <None Include="Resources\icons8-eye-641.png" />
+    <None Include="Resources\icons8-down-24 %281%291.png" />
+    <None Include="Resources\icons8-down-241.png" />
+    <None Include="Resources\icons8-course-501.png" />
+    <None Include="Resources\icons8-close-482.png" />
+    <None Include="Resources\icons8-close-240.png" />
+    <None Include="Resources\icons8-administrator-male-241.png" />
+    <None Include="Resources\icon52.png" />
+    <None Include="Resources\icon31.png" />
+    <None Include="Resources\icon21.png" />
+    <None Include="Resources\icon11.jpg" />
+    <None Include="Resources\eyeopen1.png" />
+    <None Include="Resources\close2.png" />
+    <None Include="Resources\403604064_1426511601284473_762316867722643294_n1.png" />
+    <None Include="Resources\403408276_325207010265654_5987268246162864927_n1.png" />
+    <None Include="Resources\403406882_313853028202794_1798676272926479777_n3.png" />
+    <None Include="Resources\403406882_313853028202794_1798676272926479777_n2.png" />
+    <None Include="Resources\403406882_313853028202794_1798676272926479777_n11.png" />
+    <None Include="Resources\403406882_313853028202794_1798676272926479777_n1.png" />
+    <None Include="Resources\371541755_866240034999247_6567698550006143890_n11.png" />
+    <None Include="Resources\371541755_866240034999247_6567698550006143890_n1.png" />
+    <None Include="Resources\370253739_1265140744880301_6846145733570899567_n.png" />
+    <None Include="Resources\367360339_1118737012843888_6418303228561789279_n1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
