@@ -208,7 +208,7 @@ namespace StudentMana
                     case "admin":
                         if (password.Equals("admin"))
                         {
-                            Form form5 = new AdminForm();
+                            Form form5 = new AdForm();
                             form5.ShowDialog();
                         }
                         else

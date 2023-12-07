@@ -62,4 +62,6 @@ Da dem du lieu AdminForm vao trong StudentMana
 
 12/7/2023- Tran Kien phong
 Đã chia branch phân việc trên github
-
+Đã fix lại hết mấy cái múa của Nguyên Khang form gì đâu tùm lum tùm la
+YÊU CẦU NGUYÊN KHANG : - photoshop cái ô đâu?
+			- Tìm hiểu lại cái drop down menu 
