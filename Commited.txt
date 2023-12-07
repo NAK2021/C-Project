@@ -59,3 +59,7 @@ Da dem du lieu AdminForm vao trong StudentMana
 - Sap xep cac bo cuc folder lai (Admin, Teacher, Student)
 * Van con bug cua font va button, menu chua dung theo form mau
 ? Cach goi bien tu ben cs khac (panel cua cs khac va chay tu mot cs rieng)
+
+12/7/2023- Tran Kien phong
+Đã chia branch phân việc trên github
+
