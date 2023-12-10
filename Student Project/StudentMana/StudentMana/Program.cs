@@ -17,7 +17,7 @@ namespace StudentMana
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new TeacherForm());
-            Application.Run(new AdForm());
+            Application.Run(new Form1());
         }
     }
 }
